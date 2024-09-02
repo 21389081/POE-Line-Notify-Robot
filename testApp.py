@@ -3,8 +3,8 @@ import time
 import requests
 
 # 設定
-file_path = r"Your log file path here"
-line_token = "Your line token here"
+file_path = r"G:\POEGGG\logs\Client.txt"
+line_token = "Tl2GC9b8iG8gXspZHl5A0eDPuea1rk4fHWGcvakCKuM"
 
 def send_line_notify(message):
     url = "https://notify-api.line.me/api/notify"
