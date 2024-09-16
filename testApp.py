@@ -3,8 +3,8 @@ import time
 import requests
 
 # 設定
-file_path = r"G:\POEGGG\logs\Client.txt"  # 要監控的文件路徑
-line_token = "Tl2GC9b8iG8gXspZHl5A0eDPuea1rk4fHWGcvakCKuM"  # LINE Notify 的 token
+file_path = r"(Your POE path)\logs\Client.txt"  # 要監控的文件路徑
+line_token = "Your LINE Notify Token"  # LINE Notify 的 token
 
 def send_line_notify(message):
     """發送 LINE Notify 通知"""
